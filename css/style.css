@@ -299,3 +299,12 @@ header {
     margin: 0;
 }
 /*footer section end*/
+
+
+
+@media (max-width:768px){
+	.explore-section .col-md-12{
+		flex-basis:100%;
+		max-width:100%;
+	}
+}
