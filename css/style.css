@@ -107,15 +107,6 @@ header {
 	margin-top:10px;
 }
 
-@media (max-width:767px) {
-	.banner_content h1{
-		font-size:50px;
-	}
-}
-
-
-
-
 /*speech sestion start*/
 .speech{
 	padding:60px 0;
@@ -299,6 +290,9 @@ header {
     margin: 0;
 }
 /*footer section end*/
+
+
+
 @media (max-width: 768px){
 	.explore-section .col-md-12{
 		flex-basis:100%;
@@ -306,7 +300,7 @@ header {
 	}
 
 	.explore-section h1{
-		font-size:40px;
+		font-size:35px;
 	}
 
 	.explore-section{
@@ -331,5 +325,14 @@ header {
 
 	.footer-section p{
 		font-size:15px;
+	}
+
+
+	.banner_content h1{
+		font-size:35px;
+	}
+
+	.banner_content h3{
+		font-size:20px;
 	}
 }
