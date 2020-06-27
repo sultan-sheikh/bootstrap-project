@@ -267,7 +267,7 @@ header {
 .tour img{
 	border-radius: 2px;
 	margin-bottom: 35px;
-	box-shadow: 8px 8px 8px 3px #00000014;
+	box-shadow: 8px 8px 8px 3px #00000021;
 }
  .small{
 	object-fit: cover;
@@ -299,12 +299,37 @@ header {
     margin: 0;
 }
 /*footer section end*/
-
-
-
-@media (max-width:768px){
+@media (max-width: 768px){
 	.explore-section .col-md-12{
 		flex-basis:100%;
 		max-width:100%;
+	}
+
+	.explore-section h1{
+		font-size:40px;
+	}
+
+	.explore-section{
+		text-align:center;
+	}
+
+	.explore-section span{
+		margin:0 auto;
+	}
+
+	.tour{
+		text-align:center;
+	}
+
+	.tour span{
+		margin:0 auto;
+	}
+
+	.tour h3{
+		font-size:30px;
+	}
+
+	.footer-section p{
+		font-size:15px;
 	}
 }
